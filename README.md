@@ -32,7 +32,7 @@ Retrieves a list of all of the heats and their results. It will always return _T
     ```bash
     curl -H "Accept: application/json" -i http://192.168.4.1/heats
     ```
- 
+
 ### Set current heat results
 Sets the results for the current heat.
 
@@ -90,3 +90,6 @@ This provides the Arduino compatible code to control the lights. It provides the
 
 ## detachable-esp8266-4x-wire-to-board
 Optionally, one can use this PCB (done in EAGLE) in order to facilitate how the LEDs are connected to the LOLIN D1 R2. This provides a PCB that has the _LOLIN D1 R2_ on headers, 5 x board connectors and a DC power jack. It makes it easy to swap the _LOLIN D1 R2_ and the lights.
+
+## TODO
+* Add programs, ie: best 3 out of 5, 4 out of 4, etc.
